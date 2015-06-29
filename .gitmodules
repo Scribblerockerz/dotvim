@@ -1,3 +1,3 @@
-[submodule "bunlde/easymotion"]
-	path = bunlde/easymotion
+[submodule "bundle/easymotion"]
+	path = bundle/easymotion
 	url = git@github.com:easymotion/vim-easymotion.git
