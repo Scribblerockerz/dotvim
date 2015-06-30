@@ -22,12 +22,20 @@ set laststatus=2
 set list listchars=tab:»·,trail:·
 set splitbelow
 set splitright
+" Softtabs, 2 spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 let mapleader = ","
 let g:session_autoload = 'no'
 let g:EasyMotion_smartcase = 1
 
+" remap emmet's key
+let g:user_emmet_leader_key='<C-X>'
 
+" EMMET:
+nmap . <C-X>,
 
 " MAPPING:
 
