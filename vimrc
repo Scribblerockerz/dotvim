@@ -3,7 +3,7 @@ syntax on
 filetype plugin indent on
 
 " THEME:
-colorscheme atom-dark
+colorscheme hybrid_material
 
 " SETTINGS:
 set showcmd
@@ -27,9 +27,11 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+
 let mapleader = ","
 let g:session_autoload = 'no'
 let g:EasyMotion_smartcase = 1
+let g:enable_bold_font = 1
 
 " remap emmet's key
 let g:user_emmet_leader_key='<C-X>'
@@ -74,6 +76,9 @@ set cursorline
 " NERDtree:
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+
+" Javascript:
+let g:javascript_enable_domhtmlcss = 0
 
 
 " Tweakz:
