@@ -62,7 +62,7 @@ map <Leader>k <Plug>(easymotion-k)
 map <Leader>j <Plug>(easymotion-j)
 
 " Search for a single character inside an area
-nmap s <Plug>(easymotion-s)
+nmap <Leader>s <Plug>(easymotion-s)
 
 
 
