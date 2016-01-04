@@ -80,6 +80,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " Javascript:
 let g:javascript_enable_domhtmlcss = 0
 
+" Markdown
+let g:vim_markdown_folding_disabled = 1
 
 " Tweakz:
 let g:fuzzy_ignore = "*.png;*.PNG;*.JPG;*.jpg;*.GIF;*.gif;vendor/**;coverage/**;tmp/**;rdoc/**"
