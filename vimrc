@@ -138,13 +138,6 @@ inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 
 
 
-" Tutor:
-nnoremap <Left> :echoe "Use h"<CR>
-nnoremap <Right> :echoe "Use l"<CR>
-nnoremap <Up> :echoe "Use k"<CR>
-nnoremap <Down> :echoe "Use j"<CR>
-
-
 
 " Easy navigation between splits. Instead of ctrl-w + j. Just ctrl-j
 nnoremap <C-J> <C-W><C-J>
